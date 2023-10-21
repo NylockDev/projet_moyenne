@@ -1,0 +1,12 @@
+[file] Cannot open file './sound/introduction.mpga': No such file or directory
+Failed to open ./sound/introduction.mpga.
+
+Exiting... (Errors when loading file)
+[file] Cannot open file './sound/introduction.mpga': No such file or directory
+Failed to open ./sound/introduction.mpga.
+
+Exiting... (Errors when loading file)
+[file] Cannot open file './sound/introduction.mp3': No such file or directory
+Failed to open ./sound/introduction.mp3.
+
+Exiting... (Errors when loading file)
