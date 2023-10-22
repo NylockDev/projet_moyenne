@@ -1,5 +1,4 @@
- 
-```markdown
+
 # LE CALCULER
 
 ╭╮╱╱╱╭━━━╮   ╭━━━╮╭━━━╮╭╮╱╱╱╭━━━╮╭╮╱╭╮╭╮╱╱╱╭━━━╮╭╮╱╭╮╭━━━╮
@@ -40,7 +39,7 @@ etc ...........
 
 Ce projet est un simple projet. Il calcule vos différentes moyennes. Le programme vous demandera votre nom et votre classe pour l'afficher à l'entête de votre bulletin. Ça vous demandera le cycle scolaire, que ce soit trimestre ou semestre. Ensuite, vous serez amené à entrer le trimestre ou le semestre pour lequel vous souhaitez calculer la moyenne. Ensuite, vous devez entrer le nombre de matières. Après avoir entré le nombre de matières, vous entrez chaque matière une par une à l'affichage du prompt. Après, vous entrez la moyenne et le coefficient de chaque matière correspondante. Tout ceci sera traité par le programme et sera affiché dans un fichier, texte dont le nom du fichier sera constitué de votre nom. Ne vous en faites pas, le nom sera affiché dans le programme.
 
-#usage
+##usage
 ```bash
 python main.py
 ```
