@@ -37,10 +37,10 @@ print(art)
 sleep(0.7)
 
 print()
-play_sound(os.path.abspath("./sound/introduction.mp3"))
+#play_sound(os.path.abspath("./sound/introduction.mp3"))
 barre_chargement_advanced()
 
-sleep(19)
+#sleep(19)
 art=("""
 ╭╮╱╱╱╭━━━╮   ╭━━━╮╭━━━╮╭╮╱╱╱╭━━━╮╭╮╱╭╮╭╮╱╱╱╭━━━╮╭╮╱╭╮╭━━━╮
 ┃┃╱╱╱┃╭━━╯   ┃╭━╮┃┃╭━╮┃┃┃╱╱╱┃╭━╮┃┃┃╱┃┃┃┃╱╱╱┃╭━━╯┃┃╱┃┃┃╭━╮┃
@@ -60,8 +60,8 @@ print(" tapez enter pour continuer")
 input()
 clear()
 
-play_sound(os.path.abspath("./sound/demander_nom.mp3"))
-sleep(7)
+#play_sound(os.path.abspath("./sound/demander_nom.mp3"))
+#sleep(7)
 print(Fore.CYAN+" BRO, soit patient avec le programme sinon taura tous plein d'ereur")
 print(Fore.RESET)
 etudiant=input(Fore.CYAN+" Entrez votre prenom ex (Martial) ")
@@ -70,8 +70,8 @@ nom,classe=information()
 print(Fore.RESET)
 etudiant=Etudiant(nom,classe)
 print(Back.CYAN+Fore.GREEN+ " OK "+Style.RESET_ALL)
-play_sound(os.path.abspath("./sound/cycle.mp3"))
-sleep(27)
+#play_sound(os.path.abspath("./sound/cycle.mp3"))
+#sleep(27)
 print(Fore.LIGHTCYAN_EX+" quel est votre cycle scolaire ?\n1) trimestre\n2) semestre")
 print(Fore.RESET)
 
@@ -85,8 +85,8 @@ if choix == 1:
 elif choix== 2:
    choix= menu.menu1()
 else:
-    sleep(1.2)
-    play_sound("./sound/erreur.mp3")
+ #   sleep(1.2)
+#    play_sound("./sound/erreur.mp3")
     print(Fore.RED+" ERREUR: VEILLEZ TAPEZ 1 OU 2 je vous l'avais dit 😝😝 😎"+Fore.RESET)
     exit()
 nbre_matiere_int=0
@@ -100,12 +100,12 @@ while nbre_matiere_int==0:
         play_sound(complet("./sound/erreur.mp3"))
         print(Fore.RED+ " ERRUEUR VEILLEZ ENTREZ UNE VALEUR NUMERIQUE PAS DE VIRGULE")
 # on recupere les matieres de l'utilisateur 
-play_sound("./sound/carnet_matieres.mp3")
-sleep(19)
+#play_sound("./sound/carnet_matieres.mp3")
+#sleep(19)
 matieres=canet_matieres(nbre_matiere_int)
 # on recupere les moyennes de chaque matieres
-play_sound("./sound/carnet_moyenne.mp3")
-sleep(18)
+#play_sound("./sound/carnet_moyenne.mp3")
+#sleep(18)
 liste_moyennes=carnet_moyennes(matieres)
 
 pondere=[]
@@ -156,11 +156,11 @@ afficher_heure()
 sys.stdout=sys.__stdout__
 print(Fore.LIGHTBLUE_EX+f"OK BRO VA VOIR TON BULLETIN DU {choix} dans {fichier} a bientôt")
 print(Fore.RESET)
-play_sound("./sound/fin.mp3")
-sleep(6)
+#play_sound("./sound/fin.mp3")
+sleep(1)
 clear()
-play_sound("./sound/remerciements.mp3")
-sleep(28)
+#play_sound("./sound/remerciements.mp3")
+#sleep(28)
 art=("""
  ⊂ヽ
 　 ＼＼  Λ＿Λ
